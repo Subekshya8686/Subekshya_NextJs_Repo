@@ -1,11 +1,18 @@
-import React from 'react';
+// ButtonComponent.tsx
+// import React from 'react';
+// // import CustomButton, { ButtonProps } from './buttonDemo'; // Update the path accordingly
 
-function handleClick() {
-  alert('Button Clicked!');
-}
+// interface ButtonComponentProps {
+//   buttonProps: ButtonProps;
+// }
 
-export default function Button() {
-  <button onClick={handleClick}>
-    Click me
-  </button>
-};
+// const ButtonComponent: React.FC<ButtonComponentProps> = ({ buttonProps }) => {
+//   return (
+//     <div>
+//       <h1>Your Button Component</h1>
+//       <CustomButton {...buttonProps} />
+//     </div>
+//   );
+// };
+
+// export default ButtonComponent;
